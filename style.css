@@ -1,71 +1,68 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin: 0;
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-h1{
-    color: rgb(5, 0, 0);
-    font-size: 2rem;
+h1 {
+  color: rgb(5, 0, 0);
+  font-size: 2rem;
 }
-.choice{
-    margin: 0;
-    margin-bottom: 50px;
+.choice {
+  margin: 0;
+  margin-bottom: 50px;
 }
-.choice button{
-     background-color: rgb(147, 9, 9);
-     border-radius: 2rem;
-     padding: 10px 10px;
-     margin: 0 10px;
-     font-size: 6rem;
-     min-width: 160px;
-     cursor: pointer;
-     box-shadow: 5px 5px 5px;
-     transition: background-color 0.5s ease;
+.choice button {
+  background-color: rgb(147, 9, 9);
+  border-radius: 2rem;
+  margin: 0 10px;
+  font-size: 6rem;
+  min-width: 120px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px;
+  transition: background-color 0.5s ease;
 }
-.choice :hover{
-    background-color: rgb(79, 1, 1);
-
+.choice :hover {
+  background-color: rgb(79, 1, 1);
 }
-#player,#computer{
-    font-size: 2rem;
+#player,
+#computer {
+  font-size: 2rem;
 }
-#result{
-    font-size: 4rem;
-    margin: 5px 0;
+#result {
+  font-size: 3rem;
+  margin: 5px 0;
 }
-#newgamebtn button{
-    background-color: rgb(252, 68, 1);
-    border-radius: 4px;
-    margin: 8px;
-    padding: 5px 5px;
-    font-size: 2rem;
-    cursor: pointer;
-    box-shadow: 3px 3px 3px;
-    transition: background-color 0.1s ease;
+#newgamebtn button {
+  background-color: rgb(252, 68, 1);
+  border-radius: 4px;
+  margin: 8px;
+  padding: 5px 5px;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px;
+  transition: background-color 0.1s ease;
 }
-#newgamebtn :hover{
-    background-color: rgb(204, 54, 0);
-    color: rgb(23, 15, 15);
+#newgamebtn :hover {
+  background-color: rgb(204, 54, 0);
+  color: rgb(23, 15, 15);
 }
 
-.score{
-    font-size: 2rem;
+.score {
+  font-size: 2rem;
 }
-.greentext{
-    color: green;
+.greentext {
+  color: green;
 }
-.redtext{
-    color: rgb(229, 0, 0);
+.redtext {
+  color: rgb(229, 0, 0);
 }
-#playergreen{
-    color: green;
+#playergreen {
+  color: green;
 }
-#computerred{
-    color: red;
+#computerred {
+  color: red;
 }
-
